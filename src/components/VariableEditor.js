@@ -62,7 +62,7 @@ export class VariableEditor extends React.Component {
       lineNumbers: true,
       tabSize: 2,
       mode: 'graphql-variables',
-      theme: 'graphiql',
+      theme: 'solarized dark',
       keyMap: 'sublime',
       autoCloseBrackets: true,
       matchBrackets: true,

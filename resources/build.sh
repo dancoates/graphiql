@@ -14,5 +14,5 @@ browserify -g browserify-shim -s GraphiQL dist/index.js > graphiql.js
 echo "Bundling graphiql.min.js..."
 browserify -g browserify-shim -g uglifyify -s GraphiQL dist/index.js 2> /dev/null | uglifyjs -c --screw-ie8 > graphiql.min.js 2> /dev/null
 echo "Bundling graphiql.css..."
-cat css/*.css > graphiql.css
+cat css/*.css node_modules/codemirror/theme/solarized.css > graphiql.css
 echo "Done"

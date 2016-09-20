@@ -38,7 +38,7 @@ export class ResultViewer extends React.Component {
       lineWrapping: true,
       value: this.props.value || '',
       readOnly: true,
-      theme: 'graphiql',
+      theme: 'solarized dark',
       mode: 'graphql-results',
       keyMap: 'sublime',
       foldGutter: {

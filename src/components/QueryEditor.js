@@ -64,7 +64,7 @@ export class QueryEditor extends React.Component {
       lineNumbers: true,
       tabSize: 2,
       mode: 'graphql',
-      theme: 'graphiql',
+      theme: 'solarized light',
       keyMap: 'sublime',
       autoCloseBrackets: true,
       matchBrackets: true,
